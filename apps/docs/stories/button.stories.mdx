@@ -1,0 +1,23 @@
+import { Button } from "@acme/core/src";
+import { Meta, Story, Preview, Props } from "@storybook/addon-docs/blocks";
+import '@acme/theme/dist/tailwind.output.css'
+
+<Meta title="Components/Button" component={Button} />
+
+# Button
+
+Lorem ipsum dolor sit amet, consectetur adipiscing elit. Donec euismod, nisl eget consectetur tempor, nisl nunc egestas nisi, euismod aliquam nisl nunc euismod.
+
+## Props
+
+<Props of={Button} />
+
+## Examples
+
+<Preview>
+  <Story name="Default">
+    <Button>默认按钮</Button>
+    <Button type="primary">主要按钮</Button>
+    <Button type="text">文字按钮</Button>
+  </Story>
+</Preview>
