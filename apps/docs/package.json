@@ -10,6 +10,9 @@
   },
   "dependencies": {
     "@acme/core": "*",
+    "@gio-design/components": "^23.0.0",
+    "@gio-design/icons": "^23.2.0",
+    "@gio-design/utils": "^23.0.0",
     "react": "^18.0.0",
     "react-dom": "^18.0.0",
     "sand-react": "https://nexus.growingio.com/repository/npm-group/sand-react/-/sand-react-0.0.1-appha2.tgz"
